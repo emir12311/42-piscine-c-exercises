@@ -91,8 +91,14 @@
 | **ex02** | `ft_putnbr` | Displays an integer. |
 | **ex03** | `ft_atoi` | Converts a string to an integer. |
 | **ex04** | `ft_putnbr_base` | Displays an integer according to the base given. |
+| **ex05** | `ft_atoi_base` | Converts a string to an integer in the base given. |
 
+</details>
+
+<details>
+<summary><b>C05</b></summary>
 <br>
+
 <i>More will come..</i>
 
 </details>
