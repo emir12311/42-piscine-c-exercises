@@ -1,17 +1,25 @@
-# libft
-![C](https://img.shields.io/badge/language-C-blue.svg) ![42](https://img.shields.io/badge/School-42-000000.svg)
+# 42 Piscine C Exercises
 
-> Hello people! This is just my way of making the library they make you do in the Piscine at 42. Since I am planning to head to 42 Kocaeli after high school, I wanted to start early on the logic and the rules they have. It's definitely different from my usual projects, but it's been great for learning how things work under the hood.
+![C](https://img.shields.io/badge/language-C-blue.svg)
+
+> My solutions to the C exercises from the 42 Piscine (C00–C04). I started these
+> early because I'm planning to go to 42 Kocaeli after high school, and I wanted
+> to get used to the Norminette rules and to how C works under the hood before
+> getting there.
+>
+> **Note on the name:** I originally titled this repo *libft*, because I thought
+> the piscine exercises were the same thing as the libft project. They aren't —
+> libft is a separate, larger project. This repo is only the exercises, so I
+> renamed it. There's no `Makefile` or compiled archive here for that reason.
+>
+> **Status:** not maintained. I've moved on from piscine prep and I'm not adding
+> further exercises. Keeping it up as a record of where I started with C.
 
 ---
 
-##  Whats inside
+## C00 — Output and loops
 
-<details open>
-<summary><b>C00</b></summary>
-<br>
-
-| Exercise | Function Name | Description |
+| Exercise | Function | Description |
 | :---: | :--- | :--- |
 | **ex00** | `ft_putchar` | Outputs a single character. |
 | **ex01** | `ft_print_alphabet` | Displays the alphabet in lowercase. |
@@ -23,13 +31,9 @@
 | **ex07** | `ft_putnbr` | Displays an integer. |
 | **ex08** | `ft_print_combn` | Displays combinations of n digits. |
 
-</details>
+## C01 — Pointers
 
-<details>
-<summary><b>C01</b></summary>
-<br>
-
-| Exercise | Function Name | Description |
+| Exercise | Function | Description |
 | :---: | :--- | :--- |
 | **ex00** | `ft_ft` | Sets the value of an integer to 42 through a pointer. |
 | **ex01** | `ft_ultimate_ft` | Sets the value of an integer to 42 through a nine-level pointer. |
@@ -41,13 +45,9 @@
 | **ex07** | `ft_rev_int_tab` | Reverses the order of integers in an array. |
 | **ex08** | `ft_sort_int_tab` | Sorts an array of integers in ascending order. |
 
-</details>
+## C02 — Strings and character classes
 
-<details>
-<summary><b>C02</b></summary>
-<br>
-
-| Exercise | Function Name | Description |
+| Exercise | Function | Description |
 | :---: | :--- | :--- |
 | **ex00** | `ft_strcpy` | Copies a string from source to destination and returns the destination pointer. |
 | **ex01** | `ft_strncpy` | Copies up to n characters from a string; if the source is shorter than n, the remainder of the destination is padded with null bytes. |
@@ -56,20 +56,16 @@
 | **ex04** | `ft_str_is_lowercase` | Returns 1 if the string is empty or contains only lowercase letters. |
 | **ex05** | `ft_str_is_uppercase` | Returns 1 if the string is empty or contains only uppercase letters. |
 | **ex06** | `ft_str_is_printable` | Returns 1 if the string is empty or contains only printable characters. |
-| **ex07** | `ft_strupsave` | Converts all lowercase letters in a string to uppercase. |
+| **ex07** | `ft_strupcase` | Converts all lowercase letters in a string to uppercase. |
 | **ex08** | `ft_strlowcase` | Converts all uppercase letters in a string to lowercase. |
 | **ex09** | `ft_strcapitalize` | Capitalizes the first letter of each word and converts the rest to lowercase. |
 | **ex10** | `ft_strlcpy` | Copies src to dest (up to size - 1 chars), null-terminates if possible, and returns the length of src. |
 | **ex11** | `ft_putstr_non_printable` | Displays a string, replacing non-printable characters with \ followed by their lowercase hexadecimal value. |
 | **ex12** | `ft_print_memory` | Displays a memory area in hexadecimal and ASCII format, showing 16 bytes per line. |
 
-</details>
+## C03 — String comparison and concatenation
 
-<details>
-<summary><b>C03</b></summary>
-<br>
-
-| Exercise | Function Name | Description |
+| Exercise | Function | Description |
 | :---: | :--- | :--- |
 | **ex00** | `ft_strcmp` | Compares two strings lexicographically and returns the difference between the first differing characters. |
 | **ex01** | `ft_strncmp` | Compares up to n characters of two strings and returns the difference between the first differing characters. |
@@ -78,13 +74,9 @@
 | **ex04** | `ft_strstr` | Locates the first occurrence of the full substring in the main string and returns a pointer to it. |
 | **ex05** | `ft_strlcat` | Appends the source string to the destination string up to a specified size and returns the total length it tried to create. |
 
-</details>
+## C04 — Conversion and bases
 
-<details>
-<summary><b>C04</b></summary>
-<br>
-
-| Exercise | Function Name | Description |
+| Exercise | Function | Description |
 | :---: | :--- | :--- |
 | **ex00** | `ft_strlen` | Counts and returns the number of characters in a string. |
 | **ex01** | `ft_putstr` | Displays a string. |
@@ -93,12 +85,8 @@
 | **ex04** | `ft_putnbr_base` | Displays an integer according to the base given. |
 | **ex05** | `ft_atoi_base` | Converts a string to an integer in the base given. |
 
-</details>
+---
 
-<details>
-<summary><b>C05</b></summary>
-<br>
+## License
 
-<i>More will come..</i>
-
-</details>
+GPL-3.0 — see [LICENSE](LICENSE).
